@@ -4,11 +4,13 @@
  */
 package vista;
 
+import utils.IOperaciones;
+
 /**
  *
  * @author A7
  */
-public class Pantalla {
+public class Pantalla implements IOperaciones{
 
     private static Pantalla miPantalla = null;
     
@@ -25,10 +27,13 @@ public class Pantalla {
     private Pantalla() {
     }
     
-    public void notificarMensaje(String mensaje){
-        System.out.println(mensaje);
+//    public void notificarMensaje(String mensaje){
+//        System.out.println(mensaje);
+//    }
+
+    @Override
+    public void notificarMensaje(String mensaje) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
-    
     
 }

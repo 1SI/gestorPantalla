@@ -14,7 +14,7 @@ public class IntercambioMensajes {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Pantalla pantalla = new Pantalla();
-        GestorP
+        // 
+        //Pantalla pantalla = new Pantalla();
     }
 }
